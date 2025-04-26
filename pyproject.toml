@@ -5,14 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "grafica"
 dynamic = ["version"]
-dependencies = [
-    "sphinx",
-    "pygments"
-]
-
 authors = [
   { name="Jacob Sánchez", email="jacobszpz@protonmail.com" },
 ]
+description = "Un tema de Sphinx basado en gob.mx"
+readme = "README.md"
+dependencies = ["sphinx", "pygments"]
+
 classifiers = [
   "Framework :: Sphinx",
   "Framework :: Sphinx :: Theme",

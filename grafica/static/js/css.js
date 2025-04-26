@@ -23,4 +23,3 @@ _ready(() => {
     el => el.classList.add('alert-info')
   );
 });
-
