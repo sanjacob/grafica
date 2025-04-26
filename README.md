@@ -1,8 +1,23 @@
-## Grafica
+## Gráfica
 
-Un tema para [Sphinx][sphinx] adaptado del diseño de https://www.gob.mx.
+Un tema para [Sphinx][sphinx] adaptado del diseño de www.gob.mx.
 
 En particular, se utilizó la [guía de estilo][guia] como referencia.
+
+
+## Instalación
+
+Puedes obtener este tema desde PyPI.
+
+```bash
+pip install grafica
+```
+
+Después, activa el tema en `conf.py`.
+
+```python
+html_theme = "grafica"
+```
 
 
 ## Configuración
@@ -25,7 +40,7 @@ En particular, se utilizó la [guía de estilo][guia] como referencia.
 
 Este tema se proporciona bajo la licencia BSD de 3 cláusulas (3-Clause BSD).
 
-El diseño de https://www.gob.mx/ es propiedad intelectual de sus autores.
+El diseño de www.gob.mx es propiedad intelectual de sus autores.
 
 [sphinx]: https://www.sphinx-doc.org/
 [guia]: https://framework-gb.cdn.gob.mx/
