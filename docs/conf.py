@@ -25,7 +25,6 @@ language = "es"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "grafica"
-html_static_path = ["_static"]
 html_theme_options = {
     "description": "Un tema de Sphinx basado en gob.mx",
     "github_user": "sanjacob",
