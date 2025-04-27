@@ -62,8 +62,49 @@ h3:hover > .headerlink, h4:hover > .headerlink {
 	text-decoration: none;
 }
 
+.toctree-wrapper > ul {
+	display: grid;
+	grid-gap: 1rem;
+	padding: 0;
+	grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.toctree-wrapper > ul > li {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 1rem;
+
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: .25rem;
+}
+
+.toctree-wrapper ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.toctree-wrapper > ul > li > a {
+	font-weight: 900;
+	font-size: 2rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Patria, "noto Sans", Helvetica, Arial, sans-serif;
+	color: unset;
+}
+
+.toctree-wrapper > ul ul a {
+	color: #706f6f;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
 @media print {
-	.pagination,
+	ul.pagination,
 	.print,
 	.gobmx-docs-sidenav,
 	footer.main-footer {
