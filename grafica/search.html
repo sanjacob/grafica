@@ -1,18 +1,7 @@
 {# Template for the search page #}
-{%- extends "layout.html" %}
-{% set title = _('Search') %}
-{%- block scripts %}
-  {{ super() }}
-  <script src="{{ pathto('_static/searchtools.js', 1) }}"></script>
-  <script src="{{ pathto('_static/language_data.js', 1) }}"></script>
-{%- endblock %}
-{% block extrahead %}
-  <script src="{{ pathto('searchindex.js', 1) }}" defer="defer"></script>
-  <meta name="robots" content="noindex" />
-  {{ super() }}
-{% endblock %}
+{%- extends "basic/search.html" %}
 {% block body %}
-<div class="row busqueda-inner top-buffer">
+<div class="row busqueda-inner">
   <div class="col-sm-4">
     {% include "breadcrumbs.html" %}
 

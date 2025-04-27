@@ -66,7 +66,7 @@ h3:hover > .headerlink, h4:hover > .headerlink {
 	.pagination,
 	.print,
 	.gobmx-docs-sidenav,
-	footer {
+	footer.main-footer {
 		display: none;
 	}
 }
