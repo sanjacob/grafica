@@ -104,8 +104,10 @@ h3:hover > .headerlink, h4:hover > .headerlink {
 }
 
 .container-fluid.footer-pleca {
-	background-repeat: unset;
+	background-repeat: repeat-x;
+	background-size: auto 100%;
 	object-fit: cover;
+	height: 4em;
 }
 
 @media print {
