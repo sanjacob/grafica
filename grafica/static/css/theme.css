@@ -103,6 +103,11 @@ h3:hover > .headerlink, h4:hover > .headerlink {
 	font-size: 1.5rem;
 }
 
+.container-fluid.footer-pleca {
+	background-repeat: unset;
+	object-fit: cover;
+}
+
 @media print {
 	ul.pagination,
 	.print,
